@@ -55,7 +55,7 @@
     },
 
     {
-        "id": "inventory_system",
+        "id": "unity_inventory_system",
         "title": "Inventory System",
         "date": "09/2024",
         "link": "https://youtu.be/EdIv4OesYqQ?si=O-1sLGQkQUdu4z7P",
@@ -74,6 +74,33 @@
         "tags": [
             {
                 "slug": "inventory"
+            }
+        ]
+    },
+
+    {
+        "id": "tutorial_3dmodel_blender_modular_wall",
+        "title": "Modular Wall",
+        "date": "09/2024",
+        "link": "https://youtu.be/EIMvpBaNsiE?si=XM-aWW-EImEiXm3k",
+        "videolink": "https://www.youtube.com/embed/EIMvpBaNsiE?si=XM-aWW-EImEiXm3k",
+        "extralink": "",
+        "patreonlink": "",
+        "description": "Tutorial how to make modular wall in blender",
+        "types": [
+            {
+                "slug": "video"
+            },
+            {
+                "slug": "blender"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "3dmodel"
+            },
+            {
+                "slug": "modular wall"
             }
         ]
     }
