@@ -1,0 +1,90 @@
+[
+    {
+        "id": "3dmodel_blood_circulation",
+        "title": "Blood Circulation",
+        "date": "12/2023",
+        "link": "https://skfb.ly/prI9O",
+        "extralink": "",
+        "patreonlink": "",
+        "description": "3D model for AR Aplication",
+        "types": [
+            {
+                "slug": "s3d"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "3d"
+            },
+            {
+                "slug": "flower"
+            }
+        ]
+    },
+
+    {
+        "id": "3dmodel_flower_anatomy",
+        "title": "Flower Anatomy",
+        "date": "09/2024",
+        "link": "https://skfb.ly/pr9Zo",
+        "extralink": "",
+        "patreonlink": "",
+        "description": "3D model for AR Aplication",
+        "types": [
+            {
+                "slug": "s3d"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "3d"
+            }
+        ]
+    },
+
+    {
+        "id": "aku_sikepala_desa",
+        "title": "Aku Si Kepala Desa",
+        "date": "04/2024",
+        "link": "",
+        "extralink": "",
+        "patreonlink": "",
+        "description": "Game about the village head's struggle",
+        "types": [
+            {
+                "slug": "unity"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "particle"
+            }
+        ]
+    },
+
+    {
+        "id": "remember",
+        "title": "Remember",
+        "date": "08/2024",
+        "link": "",
+        "extralink": "",
+        "patreonlink": "",
+        "description": "Game about someone who has lost their memory",
+        "types": [
+            {
+                "slug": "unrealengine"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "particle"
+            },
+            {
+                "slug": "lighting"
+            },
+            {
+                "slug": "shock"
+            }
+        ]
+    }
+]

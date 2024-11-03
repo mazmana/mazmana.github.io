@@ -1,0 +1,778 @@
+html {
+    background-color: black;
+    font-family: "round", serif;
+}
+
+@font-face {
+    font-family: "round";
+    src: url(BRLNSDB.TTF);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+    filter: brightness(150%);
+}
+.mainbody {
+    background-color: #353635;
+    color: white;
+    width: 1000px;
+    height: auto;
+
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 35px;
+    border-radius: 10px;
+}
+.post_card {
+    background-color: black;
+    color: white;
+    position: relative;
+    background-size: cover;
+    min-height: 400px;
+    width: 990px;
+    height: auto;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 10px;
+    opacity: 0.9;
+}
+
+.postLink {
+    height: 10px;
+
+    text-align: center;
+    text-shadow:
+        rgb(33, 25, 15) -1px -1px 0px,
+        rgb(33, 25, 15) 1px -1px 0px,
+        rgb(33, 25, 15) -1px 1px 0px,
+        rgb(33, 25, 15) 1px 1px 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    font-family: "Franklin Gothic Medium", serif;
+    background-color: #572585;
+    border-radius: 2px;
+    margin: 5px;
+    padding: 11px;
+}
+
+.postLink:hover {
+    color: aqua;
+    filter: brightness(150%);
+}
+
+.dates {
+    color: #966eff;
+    margin: 5px;
+}
+.dates2 {
+    color: #d46eff;
+    margin: 5px;
+}
+
+.post_description {
+    padding: 20px;
+    padding-top: 5px;
+}
+
+.patreonDownloadLink {
+    height: 10px;
+
+    text-align: center;
+    text-shadow:
+        rgb(33, 25, 15) -1px -1px 0px,
+        rgb(33, 25, 15) 1px -1px 0px,
+        rgb(33, 25, 15) -1px 1px 0px,
+        rgb(33, 25, 15) 1px 1px 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 30px;
+    font-family: "Franklin Gothic Medium", serif;
+    background-color: #e56d3c;
+    border-radius: 2px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.patreonDownloadLink:hover {
+    filter: brightness(150%);
+}
+
+.postTags {
+    height: 10px;
+
+    text-align: center;
+    text-shadow:
+        rgb(7, 59, 136) -1px -1px 0px,
+        rgb(7, 59, 136) 1px -1px 0px,
+        rgb(7, 59, 136) -1px 1px 0px,
+        rgb(7, 59, 136) 1px 1px 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 10px;
+    font-family: "Franklin Gothic Medium", serif;
+    background-color: black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.typefilter {
+    height: 10px;
+    float: right;
+    text-align: center;
+    text-shadow:
+        rgb(7, 59, 136) -1px -1px 0px,
+        rgb(7, 59, 136) 1px -1px 0px,
+        rgb(7, 59, 136) -1px 1px 0px,
+        rgb(7, 59, 136) 1px 1px 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 10px;
+    font-family: "Franklin Gothic Medium", serif;
+    background-color: black;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.typeOfPost {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.collapsible {
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.grid-container {
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    padding: 15px;
+}
+
+.active,
+.collapsible:hover {
+    background-color: #555;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.header-img {
+    background-image: url(Image/Mazmana_banner.png);
+    width: 100%;
+
+    height: 200px;
+    background-size: cover;
+}
+
+.header2 {
+    color: white;
+    text-shadow:
+        rgb(168, 178, 255) 3px 3px 1px,
+        rgb(168, 178, 255) 1px 1px 1px,
+        rgb(168, 178, 255) -1px -1px 1px;
+
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1;
+    font-family: round, sans-serif;
+    padding-bottom: 10px;
+}
+
+.hero-text {
+    text-align: center;
+
+    width: 500px;
+    position: relative;
+    top: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.holder {
+    text-align: center;
+    top: 20%;
+    left: 100%;
+}
+
+.filterButton {
+    background-color: #3c422f;
+    border: 2px solid #999c91;
+}
+
+.tab {
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    display: flex;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #353635;
+    border: 2px solid #353635;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 14px 16px;
+    transition: 0.3s;
+    text-shadow:
+        rgb(7, 59, 136) -1px -1px 0px,
+        rgb(7, 59, 136) 1px -1px 0px,
+        rgb(7, 59, 136) -1px 1px 0px,
+        rgb(7, 59, 136) 1px 1px 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 10px;
+    font-family: "Franklin Gothic Medium", serif;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.buttons {
+    width: 500px;
+    display: grid;
+
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centeredSmaller {
+    color: white;
+    text-shadow:
+        #6f2faa -1px -2px 0px,
+        #6f2faa 2px -2px 1px,
+        #30144a 0px 1px 1px;
+    font-size: 22px;
+    line-height: 1;
+    height: auto;
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
+}
+
+.centered {
+    color: white;
+    text-shadow:
+        #6f2faa -1px -2px 0px,
+        #6f2faa 2px -2px 1px,
+        #30144a 0px 1px 1px;
+    font-size: 30px;
+    line-height: 1;
+    height: auto;
+    text-align: left;
+    padding: 5px;
+    margin: 10px;
+}
+
+.bottom-holder {
+    position: relative;
+
+    width: 300px;
+    text-decoration: none;
+    max-height: 100px;
+    border-radius: 15px;
+
+    margin-top: 20px;
+}
+
+.number {
+    position: absolute;
+    top: 40%;
+    left: 0%;
+    transform: translate(-30%, -50%);
+    padding-left: 85px;
+    padding-top: 23px;
+    padding-bottom: 5px;
+    color: lightgray;
+    text-shadow: 2px 2px #000;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1;
+    font-family: "Domine", serif;
+}
+
+.date {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    color: white;
+    text-shadow:
+        #30144a -1.5px -1.5px 2px,
+        #30144a 1.5px -1.5px 2px,
+        #30144a -1.5px 1.5px 2px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: round, sans-serif;
+    text-decoration: none;
+}
+
+.ogdate {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    color: darkgrey;
+    text-shadow: rgb(0, 0, 0) 1px 2px 6px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: round, sans-serif;
+    text-decoration: none;
+}
+
+.description {
+    text-align: left;
+    width: 280px;
+
+    color: white;
+    text-shadow: rgb(0, 0, 0) 1px 1px;
+    font-size: 14px;
+    font-weight: 30;
+    line-height: 1;
+    font-family: round, sans-serif;
+    margin: 10px;
+}
+
+.unit_card {
+    position: relative;
+    background-color: black;
+    color: white;
+    width: 300px;
+    height: auto;
+    display: grid;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+/* Basic styling for the dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.dropdown-btn:hover {
+    background-color: #2980b9;
+}
+
+.dropdown-content {
+    position: relative;
+    background-color: black;
+    min-width: 160px;
+    font-size: 14px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.centeredbox {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: inherit;
+    height: auto;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.preview-image-holder {
+    background-color: aliceblue;
+    color: white;
+    position: relative;
+    background-size: cover;
+
+    display: flex;
+    width: 300px;
+    height: 160px;
+    border-radius: 15px 15px 0px 0px;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.post-image-holder {
+    background-color: transparent;
+
+    color: white;
+    position: relative;
+
+    display: flex;
+    max-width: 450px;
+    object-fit: contain;
+    margin: 25px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.section {
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sectionbackground {
+    padding: 7px;
+    padding-left: 20px;
+    margin: 10px;
+    padding-right: 20px;
+    border-radius: 2px;
+    background-color: #1c1c1c;
+}
+
+.preview-image-holder:hover {
+    opacity: 1;
+}
+
+.SubDivHolder {
+    display: flex;
+    width: 990px;
+    justify-content: space-between;
+}
+
+.SubDiv {
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.post-title-holder {
+    width: 990px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.patreon-link {
+    position: absolute;
+    bottom: 0%;
+    height: 40px;
+    color: white;
+    padding-left: 20px;
+    display: flex;
+    width: inherit;
+    padding-top: 10px;
+    text-shadow:
+        -1px -1px 0 #a63020,
+        1px -1px 0 #a63020,
+        -1px 1px 0 #a63020,
+        2px 2px 5px #a63020,
+        -2px -2px 5px #a63020,
+        1px 1px 0 #a63020;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 40px;
+    font-family: round, serif;
+}
+
+.normal-link {
+    position: absolute;
+    bottom: 30%;
+    height: 40px;
+    color: white;
+    padding-left: 20px;
+    display: flex;
+    width: inherit;
+    padding-top: 10px;
+    text-shadow:
+        -1px -1px 0 #a63020,
+        1px -1px 0 #a63020,
+        -1px 1px 0 #a63020,
+        2px 2px 5px #a63020,
+        -2px -2px 5px #a63020,
+        1px 1px 0 #a63020;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 40px;
+    font-family: round, serif;
+}
+
+.headertext {
+    border-radius: 15px;
+    height: 40px;
+    color: white;
+    text-shadow: 1px 1px #000;
+    background-color: #30144a;
+    font-size: 1em;
+    padding-top: 23px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1;
+    font-family: "Domine", serif;
+    background-image: linear-gradient(to bottom right, #52326f, #492d63);
+}
+
+.patreon-link:hover {
+    color: orange;
+}
+
+.normal-link:hover {
+    color: orange;
+}
+
+instagram {
+    max-height: 40px;
+    top: 3px;
+    content: url(Image/instagram.png);
+    position: relative;
+}
+
+youtube {
+    max-height: 40px;
+    top: 3px;
+    content: url(Image/youtube.png);
+    position: relative;
+}
+
+telegram {
+    max-height: 40px;
+    top: 3px;
+    content: url(Image/telegram.png);
+    position: relative;
+}
+
+all {
+    max-height: 20px;
+    top: 3px;
+    content: url(Image/all.png);
+    position: relative;
+}
+
+s3d {
+    max-height: 20px;
+    top: 3px;
+    content: url(Image/3dmodel.png);
+    position: relative;
+}
+
+unity {
+    max-height: 20px;
+    top: 3px;
+    content: url(Image/unity.png);
+    position: relative;
+}
+
+unrealengine {
+    max-height: 20px;
+    top: 3px;
+    content: url(Image/unrealengine.png);
+    position: relative;
+}
+
+/* Unity {
+    max-height: 60px;
+    top: 8px;
+    content: url(/tutorials/Images/UnityIcon.png);
+    position: relative;
+} */
+
+MayaLT {
+    max-height: 50px;
+    top: 3px;
+    content: url(/tutorials/Images/mayaltIcon.png);
+    position: relative;
+}
+
+/* Blender {
+    max-height: 50px;
+    top: 3px;
+    content: url(/tutorials/Images/blenderIcon.png);
+    position: relative;
+} */
+
+Photoshop {
+    max-height: 50px;
+    top: 3px;
+    content: url(/tutorials/Images/photoshopIcon.png);
+    position: relative;
+}
+
+
+
+kofi {
+    max-height: 40px;
+    top: 3px;
+    content: url(/tutorials/Images/kofiIcon.png);
+    position: relative;
+}
+
+
+
+calendar {
+    max-height: 20px;
+    top: 3px;
+    content: url(Image/calendar.png);
+    position: relative;
+}
+
+tag {
+    max-height: 20px;
+    top: 3px;
+    content: url(Image/tag.png);
+    position: relative;
+}
+
+linkIcon {
+    max-height: 20px;
+    top: 3px;
+    content: url(Image/link.png);
+    position: relative;
+}
+
+
+
+builtin {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/builtin.png);
+    position: relative;
+}
+urp {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/urp.png);
+    position: relative;
+}
+
+shadergraph {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/shadergraph.png);
+    position: relative;
+}
+/* i3d {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/3d.png);
+    position: relative;
+} */
+
+texture {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/texture.png);
+    position: relative;
+}
+assetpack {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/assetpack.png);
+    position: relative;
+}
+videoI {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/video.png);
+    position: relative;
+}
+
+gameplay {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/gameplay.png);
+    position: relative;
+}
+design {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/design.png);
+    position: relative;
+}
+other {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/other.png);
+    position: relative;
+}
+
+.LinkButton {
+    border-radius: 15px;
+    height: 20px;
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    text-shadow: 1px 1px #000;
+    color: aliceblue;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1;
+    font-family: "Domine", serif;
+    background-color: black;
+}
+
+.LinkButton:hover {
+    color: antiquewhite;
+}
+
+#myBtn:hover {
+    background-color: #555;
+    /* Add a dark-grey background on hover */
+}

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta property="og:title" content="Mazmana" />
+        <meta property="og:type" content="image/png" />
+        <!-- <meta property="og:url" content="https://https://minionsart.github.io/tutorials/" /> -->
+        <meta property="og:image" content="/tutorials/Images/kat.jpg" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <link href="https://fonts.cdnfonts.com/css/berlin-sans-fb-demi" rel="stylesheet" />
+        <link rel="shortcut icon" href="Image/Mazmana.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+        <script type="text/javascript" src="Data.json"></script>
+        <script type="text/javascript" src="Builder.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <meta charset="UTF-8" />
+        <script>
+            $("#body").ready(function () {
+                CheckData();
+
+                //  handleCollapsible();
+            });
+
+            async function HandlePage() {
+                showAllPostsDescending();
+                ShowStartButton();
+            }
+        </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70751511-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "UA-70751511-2");
+        </script>
+        <title>Mazmana</title>
+
+        <template id="test">
+            <div class="unit_card" id="card">
+                <a class="preview-image-holder" id="linkBackground">
+                    <div class="date" id="postdate">Post Date</div>
+                    <div class="ogdate" id="originaldate">OG Date</div>
+                    <div class="typeOfPost" id="type"></div>
+                    <div class="centeredbox">
+                        <div class="centeredSmaller" id="title">Title of the post</div>
+                    </div>
+                </a>
+
+                <div class="bottom-holder">
+                    <div class="description" id="postdescription">Description of the Post</div>
+                </div>
+            </div>
+        </template>
+    </head>
+
+    <body>
+        <div class="header-img">
+            <div class="hero-text">
+                <img src="Image/Title.png" width="300px" style="padding-top: 20px" />
+
+                <div class="header2">Portofolio</div>
+
+                <a href="https://www.instagram.com/mazmanaa/"><instagram></instagram></a>
+
+                <a href="https://www.youtube.com/@mazmanaa"><youtube></youtube></a>
+
+                <a href="https://t.me/nammm01"><telegram></telegram></a>
+            </div>
+        </div>
+
+        <div class="tab">
+            <button class="tablinks" id="allbutton" onclick="showfilter(event);"><all></all> All</button>
+            <button class="tablinks" id="s3d" onclick="showfilter(event,'s3d');"><s3d></s3d> 3D</button>
+            <button class="tablinks" id="unity" onclick="showfilter(event,'unity');"><unity></unity> Unity</button>
+            <button class="tablinks" id="unrealengine" onclick="showfilter(event,'unrealengine');"><unrealengine></unrealengine> Unreal Engine</button>
+        </div>
+
+        <div class="mainbody">
+            <div id="modS" style="width: 400px; padding-top: 5px; margin: auto">
+                <div style="margin-right: auto; margin-left: auto; width: 300px">
+                    <input
+                        type="text"
+                        placeholder="Search.."
+                        style="margin-right: auto; margin-left: auto; width: 200px; color: black"
+                        id="searchInput" />
+                    <button type="submit" id="button"><i class="fa fa-search"></i></button>
+                </div>
+            </div>
+            <div class="grid-container" id="output"></div>
+        </div>
+
+        <script>
+            $(document).ready(function () {
+                $("#button").click(function () {
+                    searchData();
+                });
+            });
+
+            $(function () {
+                $("#searchInput").keyup(function (event) {
+                    if (event.which === 13) {
+                        searchData();
+                    }
+                });
+            });
+        </script>
+    </body>
+</html>
