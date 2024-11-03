@@ -83,13 +83,13 @@
         "title": "Modular Wall",
         "date": "09/2024",
         "link": "https://youtu.be/EIMvpBaNsiE?si=XM-aWW-EImEiXm3k",
-        "videolink": "https://www.youtube.com/embed/EIMvpBaNsiE?si=XM-aWW-EImEiXm3k",
+        "videolink": "https://www.youtube.com/embed/EIMvpBaNsiE?si=lj0rz6Bn-ClTvfEH",
         "extralink": "",
         "patreonlink": "",
         "description": "Tutorial how to make modular wall in blender",
         "types": [
             {
-                "slug": "unity"
+                "slug": "video"
             },
             {
                 "slug": "s3d"
