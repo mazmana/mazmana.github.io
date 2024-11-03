@@ -596,7 +596,7 @@ function CreateTypeDiv(slug) {
         case "video":
             typeDiv.setAttribute("style", "background-color: #cc022a; border: 2px solid #fe0032;");
 
-            typeDiv.innerHTML = "video";
+            typeDiv.innerHTML = "Video";
 
             break;
     }
