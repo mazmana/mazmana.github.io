@@ -55,6 +55,32 @@
     },
 
     {
+        "id": "3dmodel_dora_the_destroyer",
+        "title": "Dora The Destroyer",
+        "date": "09/2024",
+        "link": "https://skfb.ly/prItA",
+        "extralink": "",
+        "patreonlink": "",
+        "description": "3D model for Game Horror",
+        "types": [
+            {
+                "slug": "s3d"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "3dmodel"
+            },
+            {
+                "slug": "character"
+            },
+            {
+                "slug": "dora"
+            }
+        ]
+    },
+
+    {
         "id": "unity_inventory_system",
         "title": "Inventory System",
         "date": "09/2024",
