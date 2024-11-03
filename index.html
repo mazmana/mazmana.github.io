@@ -11,6 +11,18 @@
         <meta charset="UTF-8" />
         <title>Mazmana</title>
 
+        <script>
+            $("#body").ready(function () {
+                CheckData();
+
+            });
+
+            async function HandlePage() {
+                showAllPostsDescending();
+                ShowStartButton();
+            }
+        </script>
+
         <template id="test">
             <div class="unit_card" id="card">
                 <a class="preview-image-holder" id="linkBackground">
@@ -70,29 +82,6 @@
             </div>
             <div class="grid-container" id="output"></div>
         </div>
-
-        <script>
-            $("#body").ready(function () {
-                CheckData();
-
-            });
-
-            async function HandlePage() {
-                showAllPostsDescending();
-                ShowStartButton();
-            }
-        </script>
-
-        <script>
-            window.dataLayer = window.dataLayer || [];
-
-            function gtag() {
-                dataLayer.push(arguments);
-            }
-            gtag("js", new Date());
-
-            gtag("config", "UA-70751511-2");
-        </script>
 
         <script>
             $(document).ready(function () {
