@@ -195,9 +195,9 @@ a:hover {
 .header2 {
     color: white;
     text-shadow:
-        rgb(168, 178, 255) 3px 3px 1px,
-        rgb(168, 178, 255) 1px 1px 1px,
-        rgb(168, 178, 255) -1px -1px 1px;
+        rgb(68, 82, 108) 3px 3px 1px,
+        rgb(68, 82, 108) 1px 1px 1px,
+        rgb(68, 82, 108) -1px -1px 1px;
 
     font-size: 30px;
     font-weight: bold;
@@ -626,6 +626,14 @@ unrealengine {
     position: relative;
 }
 
+videoI {
+    max-height: 20px;
+    top: 3px;
+    content: url(/tutorials/Images/video.png);
+    position: relative;
+}
+
+
 /* Unity {
     max-height: 60px;
     top: 8px;
@@ -726,12 +734,7 @@ assetpack {
     content: url(/tutorials/Images/assetpack.png);
     position: relative;
 }
-videoI {
-    max-height: 20px;
-    top: 3px;
-    content: url(/tutorials/Images/video.png);
-    position: relative;
-}
+
 
 gameplay {
     max-height: 20px;

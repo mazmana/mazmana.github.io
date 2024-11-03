@@ -592,6 +592,13 @@ function CreateTypeDiv(slug) {
             typeDiv.innerHTML = "Unreal Engine";
 
             break;
+        
+        case "video":
+            typeDiv.setAttribute("style", "background-color: #cc022a; border: 2px solid #fe0032;");
+
+            typeDiv.innerHTML = "video";
+
+            break;
     }
     return typeDiv;
 }

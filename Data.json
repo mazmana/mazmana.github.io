@@ -14,10 +14,16 @@
         ],
         "tags": [
             {
-                "slug": "3d"
+                "slug": "3dmodel"
             },
             {
-                "slug": "flower"
+                "slug": "blood"
+            },
+            {
+                "slug": "lung"
+            },
+            {
+                "slug": "heart"
             }
         ]
     },
@@ -37,53 +43,37 @@
         ],
         "tags": [
             {
-                "slug": "3d"
+                "slug": "3dmodel"
+            },
+            {
+                "slug": "flower"
+            },
+            {
+                "slug": "petal"
             }
         ]
     },
 
     {
-        "id": "aku_sikepala_desa",
-        "title": "Aku Si Kepala Desa",
-        "date": "04/2024",
-        "link": "",
+        "id": "inventory_system",
+        "title": "Inventory System",
+        "date": "09/2024",
+        "link": "https://youtu.be/EdIv4OesYqQ?si=O-1sLGQkQUdu4z7P",
+        "videolink": "https://www.youtube.com/embed/EdIv4OesYqQ?si=O-1sLGQkQUdu4z7P",
         "extralink": "",
         "patreonlink": "",
-        "description": "Game about the village head's struggle",
+        "description": "Preview Inventory System for Game Horror",
         "types": [
+            {
+                "slug": "video"
+            },
             {
                 "slug": "unity"
             }
         ],
         "tags": [
             {
-                "slug": "particle"
-            }
-        ]
-    },
-
-    {
-        "id": "remember",
-        "title": "Remember",
-        "date": "08/2024",
-        "link": "",
-        "extralink": "",
-        "patreonlink": "",
-        "description": "Game about someone who has lost their memory",
-        "types": [
-            {
-                "slug": "unrealengine"
-            }
-        ],
-        "tags": [
-            {
-                "slug": "particle"
-            },
-            {
-                "slug": "lighting"
-            },
-            {
-                "slug": "shock"
+                "slug": "inventory"
             }
         ]
     }
