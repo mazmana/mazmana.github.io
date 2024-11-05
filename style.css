@@ -792,7 +792,7 @@ linkIcon {
     }
     .grid-container {
         display: grid;
-        max-width: 500px;
+        max-width: 800px;
         grid-template-columns: auto auto;
         gap: 20px;
         padding: 15px;
