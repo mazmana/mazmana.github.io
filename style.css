@@ -477,6 +477,15 @@ a:hover {
     padding-right: 20px;
 }
 
+.sectionNote {
+    padding: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute; 
+    bottom: 5px; 
+    max-width: 450px
+}
+
 .sectionbackground {
     padding: 7px;
     padding-left: 20px;
@@ -783,9 +792,65 @@ linkIcon {
     }
     .grid-container {
         display: grid;
-        max-width: 800px;
+        max-width: 500px;
         grid-template-columns: auto auto;
         gap: 20px;
         padding: 15px;
+    }
+
+    .mainbody-post {
+        background-color: #353635;
+        color: white;
+        width: 850px;
+        height: auto;
+    
+        display: table;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 35px;
+        border-radius: 10px;
+    }
+    
+    .grid-container-post {
+        display: grid;
+        max-width: 850px;
+        grid-template-columns: auto auto;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .post-title-holder {
+        width: 850px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .SubDivHolder {
+        display: flex;
+        width: 850px;
+        justify-content: space-between;
+    }
+
+    .post_card {
+        background-color: black;
+        color: white;
+        position: relative;
+        background-size: cover;
+        min-height: 400px;
+        width: 850px;
+        height: auto;
+        border-radius: 15px;
+        text-decoration: none;
+        padding: 10px;
+        opacity: 0.9;
+    }
+
+    .sectionNote {
+        padding: 7px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: absolute; 
+        bottom: 5px; 
+        max-width: 270px
     }
 }
