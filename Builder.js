@@ -322,22 +322,21 @@ function FillInFullPost(id) {
 
             var postlink = document.getElementById("postlink");
             postlink.innerHTML = "<a href=" + a.link + "><linkIcon></linkIcon> Go To Post</a>";
-            // background image
-
-            background = document.getElementById("postPreview");
+            // background image\
+            var embed3d = document.getElementById("3dview");
             var video = document.getElementById("videoPreview");
             if (containsTypeSlug(a, "video")) {
                 video.setAttribute("src", a.videolink);
                 video.setAttribute("id", "video" + a.id);
-                background.remove();
+                embed3d.remove();
             } else {
                 video.remove();
             }
 
-            background.setAttribute("id", "postPreview" + a.id);
+            embed3d.setAttribute("id", "3dview" + a.id);
 
             //
-            background.setAttribute("src", "/Image/Gifs/" + a.id + ".avif");
+            embed3d.setAttribute("src", a.embedlink);
 
             // date
             date = document.getElementById("dates");

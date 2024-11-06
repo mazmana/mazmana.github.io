@@ -455,22 +455,6 @@ a:hover {
     opacity: 0.9;
 }
 
-.post-image-holder {
-    background-color: transparent;
-
-    color: white;
-    position: relative;
-
-    display: flex;
-    max-width: 450px;
-    object-fit: contain;
-    margin: 25px;
-    margin-bottom: 10px;
-    border-radius: 15px;
-    text-decoration: none;
-    opacity: 0.9;
-}
-
 .section {
     padding: 7px;
     padding-left: 20px;
