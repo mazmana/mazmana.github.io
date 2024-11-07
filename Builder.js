@@ -60,9 +60,6 @@ async function CheckData() {
 
         HandlePage();
     }
-    else {
-        console.log("tidak ada");
-    }
 }
 
 function showAllPostsDescending(evt) {
@@ -485,7 +482,6 @@ function FindRelatedPosts(tutData) {
         var list = GetSearchList(searchEntries);
         console.log(searchEntries);
         console.log(list);
-
         list = removeByValue(list, tutData);
 
         for (let i = 0; i < list.length; i++) {
@@ -493,7 +489,9 @@ function FindRelatedPosts(tutData) {
             document.getElementById("relatedPosts").appendChild(iDiv);
 
             fillPost(list[i].id);
+            
         }
+        
     }
 }
 

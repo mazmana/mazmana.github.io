@@ -1,15 +1,16 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <meta charset="UTF-8" />
         <link rel="shortcut icon" href="Image/Mazmana.png" />
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <script type="text/javascript" src="Data.json"></script>
         <script type="text/javascript" src="Builder.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.7/require.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <meta charset="UTF-8" />
+
+        
         <title>Mazmana</title>
         
         <script>
@@ -22,6 +23,22 @@
             }
         </script>
 
+        <template id="test">
+            <div class="unit_card" id="card">
+                <a class="preview-image-holder" id="linkBackground">
+                    <div class="date" id="postdate">Post Date</div>
+                    <div class="ogdate" id="originaldate">OG Date</div>
+                    <div class="typeOfPost" id="type"></div>
+                    <div class="centeredbox">
+                        <div class="centeredSmaller" id="title">Title of the post</div>
+                    </div>
+                </a>
+
+                <div class="bottom-holder">
+                    <div class="description" id="postdescription">Description of the Post</div>
+                </div>
+            </div>
+        </template>
     </head>
 
     <body>
@@ -83,12 +100,11 @@
                             frameborder="0"
                             width="450"
                             height="250"
-                            allowfullscreen 
                             mozallowfullscreen="true" 
                             webkitallowfullscreen="true" 
-                            allow="autoplay; fullscreen; xr-spatial-tracking" 
-                            xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share 
-                            src="#"> 
+                            allow="autoplay; fullscreen; xr-spatial-tracking; accelerometer; gyroscope;" 
+                            execution-while-out-of-viewport execution-while-not-rendered web-share 
+                            src=""> 
                         </iframe> 
 
                         <iframe
@@ -113,7 +129,7 @@
                 </div>
             </div>
         </div>
-        <div class="mainbody" style="background-color: black">
+        <div class="mainbody-post" style="background-color: black">
             <div style="color: white">RELATED POSTS:</div>
             <div class="grid-container-post" id="relatedPosts"></div>
         </div>

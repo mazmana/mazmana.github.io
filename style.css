@@ -166,6 +166,7 @@ a:hover {
 }
 
 .grid-container {
+    justify-content: center;
     display: grid;
     max-width: 1000px;
     grid-template-columns: auto auto auto;
@@ -836,5 +837,72 @@ linkIcon {
         position: absolute; 
         bottom: 5px; 
         max-width: 270px
+    }
+
+    .tab button {
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .unit_card {
+        position: relative;
+        background-color: black;
+        color: white;
+        width: 400px;
+        height: auto;
+        display: grid;
+        margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 5px 10px rgba(0, 0, 0, 0.3);
+        border-radius: 15px;
+        transition: 0.3s;
+    }
+
+    .preview-image-holder {
+        background-color: aliceblue;
+        color: white;
+        position: relative;
+        background-size: cover;
+    
+        display: flex;
+        width: 400px;
+        height: 215px;
+        border-radius: 15px 15px 0px 0px;
+        text-decoration: none;
+        opacity: 0.9;
+    }
+
+    all {
+        max-height: 40px;
+        top: 3px;
+        content: url(Image/all.png);
+        position: relative;
+    }
+    
+    s3d {
+        max-height: 40px;
+        top: 3px;
+        content: url(Image/3dmodel.png);
+        position: relative;
+    }
+    
+    unity {
+        max-height: 40px;
+        top: 3px;
+        content: url(Image/unity.png);
+        position: relative;
+    }
+    
+    unrealengine {
+        max-height: 40px;
+        top: 3px;
+        content: url(Image/unrealengine.png);
+        position: relative;
+    }
+
+    .tab button {
+        font-size: 40px;
     }
 }

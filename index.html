@@ -23,6 +23,18 @@
             }
         </script>
 
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70751511-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "UA-70751511-2");
+        </script>
+
         <template id="test">
             <div class="unit_card" id="card">
                 <a class="preview-image-holder" id="linkBackground">
@@ -38,16 +50,6 @@
                     <div class="description" id="postdescription">Description of the Post</div>
                 </div>
             </div>
-        </template>
-        
-        <template id="videoTest">
-            <iframe
-                id="video"
-                width="300"
-                height="315"
-                title=""
-                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
         </template>
     </head>
 
@@ -70,14 +72,14 @@
         </div>
 
         <div class="mainbody">
-            <div id="modS" style="width: 400px; padding-top: 5px; margin: auto">
-                <div style="margin-right: auto; margin-left: auto; width: 400px">
+            <div id="modS" style="width: 500px; padding-top: 5px; margin: auto;">
+                <div style="margin-right: auto; margin-left: auto; width: 500px; margin: 10px;">
                     <input
                         type="text"
                         placeholder="Search here"
-                        style="margin-right: auto; margin-left: auto; width: 300px; height: 30px;color: black"
+                        style="margin-right: auto; margin-left: auto; width: 400px; height: 50px;color: black; padding-left: 20px;"
                         id="searchInput" />
-                    <button type="submit" style="width: 35px; height: 35px;" id="button"><i class="fa fa-search"></i></button>
+                    <button type="submit" style="width: 50px; height: 50px;" id="button"><i class="fa fa-search"></i></button>
                 </div>
             </div>
             <div class="grid-container" id="output"></div>
