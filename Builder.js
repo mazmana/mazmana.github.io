@@ -480,7 +480,6 @@ function FindRelatedPosts(tutData) {
     }
     if (searchEntries != "") {
         var list = GetSearchList(searchEntries);
-        console.log(searchEntries);
         console.log(list);
         list = removeByValue(list, tutData);
 

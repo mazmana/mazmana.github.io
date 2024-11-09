@@ -80,7 +80,7 @@
     {
         "id": "unity_inventory_system",
         "title": "Inventory System",
-        "date": "09/2024",
+        "date": "08/2024",
         "link": "https://youtu.be/EdIv4OesYqQ?si=O-1sLGQkQUdu4z7P",
         "videolink": "https://www.youtube.com/embed/EdIv4OesYqQ?si=O-1sLGQkQUdu4z7P",
         "description": "Preview Inventory System for Game Horror",
@@ -95,6 +95,34 @@
         "tags": [
             {
                 "slug": "inventory"
+            },
+            {
+                "slug": "preview"
+            }
+        ]
+    },
+
+    {
+        "id": "unity_inspection_system",
+        "title": "Inspection System",
+        "date": "08/2024",
+        "link": "https://youtu.be/FxsZNCNMaaM?si=AGKi4AUz6QS9IwtM",
+        "videolink": "https://www.youtube.com/embed/FxsZNCNMaaM?si=AGKi4AUz6QS9IwtM",
+        "description": "Preview Inspection System for Game Horror",
+        "types": [
+            {
+                "slug": "video"
+            },
+            {
+                "slug": "unity"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "inventory"
+            },
+            {
+                "slug": "preview"
             }
         ]
     },
@@ -102,7 +130,7 @@
     {
         "id": "tutorial_3dmodel_blender_modular_wall",
         "title": "Modular Wall",
-        "date": "09/2024",
+        "date": "09/2023",
         "link": "https://youtu.be/EIMvpBaNsiE?si=XM-aWW-EImEiXm3k",
         "videolink": "https://www.youtube.com/embed/EIMvpBaNsiE?si=lj0rz6Bn-ClTvfEH",
         "description": "Tutorial how to make modular wall in blender",
