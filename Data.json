@@ -175,5 +175,30 @@
                 "slug": "preview"
             }
         ]
+    },
+
+    {
+        "id": "tts",
+        "title": "TTS (Teka-teki Silang) atau Crossword | Unity",
+        "date": "11/2024",
+        "link": "https://youtu.be/3n5k1LvC18s?si=pzKyt8bPJ7KBHdW2",
+        "videolink": "https://www.youtube.com/embed/3n5k1LvC18s?si=pzKyt8bPJ7KBHdW2",
+        "description": "Game / Aplikasi TTS menggunakan software Unity",
+        "types": [
+            {
+                "slug": "video"
+            },
+            {
+                "slug": "unity"
+            }
+        ],
+        "tags": [
+            {
+                "slug": "game"
+            },
+            {
+                "slug": "preview"
+            }
+        ]
     }
 ]
